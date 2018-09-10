@@ -1,0 +1,11 @@
+{
+  "name": "repaso2",
+  "version": "0.0.1",
+  "description": "repaso de los temas visto y preparandonos para los nuevos temas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mab",
+  "license": "ISC"
+}
