@@ -16,7 +16,6 @@ function crearProductos () {
     }
 }
 
-//"../img/product" + [i]++ +".png"
 
 
 // Agregar un Integrer que compruebe que precio es igual a un número.
