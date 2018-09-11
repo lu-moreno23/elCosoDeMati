@@ -21,4 +21,4 @@ function crearProductos () {
 
 
 
-// Agregar un Integrer que compruebe que precio es igual a un número.
+// A futuro: Agregar un Integrer que compruebe que precio es igual a un número.

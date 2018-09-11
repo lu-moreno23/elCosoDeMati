@@ -1,0 +1,68 @@
+
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+/* Esta es la estructura de la caja que tiene toda el contenido del producto */
+.producto {
+    margin: auto; /* Todo centrado */
+    align-items: center;
+    width: 50%;
+    min-height: 150px; /* Medidas máximas para cuando se reduzca se vea bien */
+    min-width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #d5d4d4;
+    display:flex; /* Flex para que todo se vea ordenado dentro */
+    justify-content: space-between;
+}
+
+/* Dentro de "Producto" hay 4 divs de INFO que contiene todo los elementos*/
+.info {
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    flex-grow: 1; /* grow para que todos "crezcan" lo necesario para llenar el div PRODUCTO */
+
+}
+
+.fotoProducto {
+    width: 20%;
+    margin: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.454);
+    flex-grow: 0; /* Con grow en cero, es el DIV que menos crece. */
+}
+
+.fotoProducto img {
+    width: 100%;
+}
+
+.datosProducto{
+    display: block;
+    flex-grow: 5; /* Con grow en 5, para que sea el DIV que MÁS espacio ocupe. */
+}
+
+.datosProducto h1 {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:200%;
+}
+
+.datosProducto p {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+}
+
+.botonFavorito {
+    font-size: 300%;
+    color: rgba(218, 216, 216, 0.694);
+}
+
