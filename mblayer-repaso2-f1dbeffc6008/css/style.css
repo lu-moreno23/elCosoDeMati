@@ -66,3 +66,6 @@ body {
     color: rgba(218, 216, 216, 0.694);
 }
 
+.modelo {
+    visibility: hidden;
+}
