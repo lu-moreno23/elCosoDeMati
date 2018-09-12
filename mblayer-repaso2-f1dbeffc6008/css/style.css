@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
 body {
     background-color: rgb(247, 247, 247);
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Esta es la estructura de la caja que tiene toda el contenido del producto */
@@ -66,3 +68,6 @@ body {
     color: rgba(218, 216, 216, 0.694);
 }
 
+.Botondetalles {
+    font-family: 'Raleway', sans-serif;
+}
