@@ -71,3 +71,6 @@ body {
 .Botondetalles {
     font-family: 'Raleway', sans-serif;
 }
+.modelo {
+    visibility: hidden;
+}
