@@ -1,6 +1,6 @@
 const Producto = function (nombre, numeroImagen, precio, detalles, stock) {
     this.nombre = nombre,
-    this.imagen = "../img/product" + numeroImagen +".png" 
+    this.imagen = "img/product" + numeroImagen +".png" 
     this.precio = precio,
     this.detalle = detalles,
     this.stock = stock
